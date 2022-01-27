@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-offcanvas.min.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <button
+  class="btn btn-primary"
+  type="button"
+  data-mdb-toggle="offcanvas"
+  data-mdb-target="#offcanvasScrolling"
+  aria-controls="offcanvasScrolling"
+>
+  Enable body scrolling
+  </button>
+  <button
+    class="btn btn-primary"
+    type="button"
+    data-mdb-toggle="offcanvas"
+    data-mdb-target="#offcanvasWithBackdrop"
+    aria-controls="offcanvasWithBackdrop"
+  >
+    Enable backdrop (default)
+  </button>
+  <button
+    class="btn btn-primary"
+    type="button"
+    data-mdb-toggle="offcanvas"
+    data-mdb-target="#offcanvasWithBothOptions"
+    aria-controls="offcanvasWithBothOptions"
+  >
+    Enable both scrolling & backdrop
+  </button>
+
+  <div
+    class="offcanvas offcanvas-start"
+    data-mdb-scroll="true"
+    data-mdb-backdrop="false"
+    tabindex="-1"
+    id="offcanvasScrolling"
+    aria-labelledby="offcanvasScrollingLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+        Colored with scrolling
+      </h5>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-mdb-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>
+        Try scrolling the rest of the page to see this option in action.
+      </p>
+    </div>
+  </div>
+  <div
+    class="offcanvas offcanvas-start"
+    tabindex="-1"
+    id="offcanvasWithBackdrop"
+    aria-labelledby="offcanvasWithBackdropLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">
+        Offcanvas with backdrop
+      </h5>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-mdb-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>.....</p>
+    </div>
+  </div>
+  <div
+    class="offcanvas offcanvas-start"
+    data-mdb-scroll="true"
+    tabindex="-1"
+    id="offcanvasWithBothOptions"
+    aria-labelledby="offcanvasWithBothOptionsLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+        Backdrop with scrolling
+      </h5>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-mdb-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>
+        Try scrolling the rest of the page to see this option in action.
+      </p>
+    </div>
+  </div>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
