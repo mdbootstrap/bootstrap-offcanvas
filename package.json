@@ -1,25 +1,32 @@
 {
-  "name": "bootstrap-avatars",
-  "version": "1.0.4",
-  "description": "Responsive Avatars built with Bootstrap 5. Various templates like a circle avatar, square, inside the navbar, carousel, as a testimonial, profile and many more.",
-  "main": "profile.html",
+  "name": "@mdbootstrap/bootstrap-offcanvas",
+  "version": "1.0.0",
+  "description": "Hidden sidebar built with the latest Bootstrap 5, perfect for use in the form of additional navigation, for example in ecommerce projects or dashboards.",
+  "main": "basic.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdbootstrap/bootstrap-avatars.git"
+    "url": "git+https://github.com/mdbootstrap/bootstrap-offcanvas.git"
   },
   "keywords": [
     "bootstrap",
-    "avatar",
+    "ecommerence",
     "bootstrap5",
-    "circle-image-view"
+    "navigation",
+    "responsive",
+    "offcanvas",
+    "responsive-design",
+    "bootstrap-template",
+    "bootstrap-offcanvas",
+    "bootstrap-dashboard",
+    "bootstrap-offcanvas-menu"
   ],
   "author": "mdbootstrap",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mdbootstrap/bootstrap-avatars/issues"
+    "url": "https://github.com/mdbootstrap/bootstrap-offcanvas/issues"
   },
-  "homepage": "https://mdbootstrap.com/docs/standard/extended/avatar/"
+  "homepage": "https://mdbootstrap.com/docs/standard/extended/offcanvas/"
 }
